@@ -12,7 +12,7 @@ app.use("/books", router); // localhost:5001/books
 // Use environment variable for MongoDB connection string
 const mongoDBConnectionString =
   process.env.MONGODB_CONNECTION_STRING ||
-  "mongodb+srv://admin:eHGa8ydVcFvnw1uF@cluster0.23w45g5.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://admin:eHGa8ydVcFvnw1uF985@cluster0.23w45g5.mongodb.net/?retryWrites=true&w=majority";
 
 // Dynamic port configuration
 const PORT = process.env.PORT || 5001; // Use a different port, for example, 5001
